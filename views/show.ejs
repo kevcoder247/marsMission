@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body{
+      background-color: grey;
+    }
+    img{
+      width: 350px;
+    }
+  </style>
+  <title>Show Page</title>
+</head>
+<body>
+  <h1>SHOW Page</h1>
+
+  <!-- <% %>   <%= %> -->
+
+ <h2>Mission Name:  <%= missions.name %> </h2>
+ 
+ <h2>Launch Date:  <%= missions.launchDate %> </h2>
+ 
+ <h2>Operator:  <%= missions.operator %> </h2>
+ 
+ <h2>Mission Type:  <%= missions.missionType %> </h2>
+ 
+ <img src=<%= missions.img %> > 
+
+ <br>
+
+<a href="/missions">Back Home</a> 
+
+</body>
+</html>
